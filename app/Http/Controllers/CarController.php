@@ -19,7 +19,7 @@ class CarController extends Controller
         $carsCollection=Car::where('price','<',3000000)
             ->where('id','>',100)
             ->first();
-;
+
        // $car40=Car::find(40);
         session()->put('cart',50);
 
