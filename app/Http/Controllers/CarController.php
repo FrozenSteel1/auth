@@ -22,7 +22,7 @@ class CarController extends Controller
 ;
        // $car40=Car::find(40);
         session()->put('cart',50);
-dd(session('cart'));
+
         return view('car.index',compact('carsCollection'));
 
     }
